@@ -1,0 +1,1 @@
+docker run -p 1807:1807 --hostname sinclairindex --name sinclairindex --detach -e DP_DB_HOST=<db_ip> -e DP_DB_PORT=<db_port> -e DP_DB_USER=<db_user> -e DP_DB_PASS=<db_pass> -e DP_DB_NAME=<db_name> docpath/sinclairindex
